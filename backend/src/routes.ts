@@ -4,7 +4,7 @@ import { CreateUserController } from './controllers/User/CreateUserController'
 const router = Router();
 
 
-//-- ROTAS USER --
+//-- ROTAS USER --  
 router.post('/users', new CreateUserController().handle)
 
 export { router };
